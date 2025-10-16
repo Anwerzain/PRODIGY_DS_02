@@ -1,33 +1,40 @@
-# PRODIGY_DS_02 - Titanic EDA
+# PRODIGY_DS_02 - TASK-02: Data Cleaning & Exploratory Data Analysis (EDA)
 
-## Task 2 - Exploratory Data Analysis (EDA) on Titanic Dataset
+💬 **Project Overview**  
+This project performs **data cleaning** and **exploratory data analysis (EDA)** on CSV datasets to detect patterns and visualize insights.
 
-### 📊 Project Overview
-This project involves performing comprehensive Exploratory Data Analysis (EDA) on the Titanic dataset as part of the Prodigy InfoTech Data Science Internship. The analysis focuses on uncovering patterns and relationships in passenger data to understand survival factors.
+**Key Features:**  
+- Automatic missing value handling (median/mode)  
+- Generates descriptive statistics  
+- Plots distributions for categorical and numerical columns  
+- Correlation heatmaps for numeric data  
 
-### 🎯 Objective
-- Perform data cleaning and exploratory data analysis
-- Explore relationships between variables
-- Identify patterns and trends in passenger survival
-- Create insightful visualizations
+🗂️ **Dataset**  
+- Upload any CSV dataset  
+- Handles datasets with missing or inconsistent columns  
 
-### 🔍 Key Insights Discovered
-- **Gender Impact**: Female passengers had significantly higher survival rates than males
-- **Class Mattered**: 1st class passengers were more likely to survive
-- **Age Factor**: Children and elderly passengers had better survival chances
-- **Fare Correlation**: Higher fare-paying passengers had better survival rates
+⚙️ **How to Run**  
+1. Open `task02_eda.ipynb` in Google Colab or Jupyter Notebook  
+2. Upload your CSV file when prompted  
+3. Run all cells to:  
+   - Clean missing values  
+   - Generate descriptive statistics  
+   - Generate plots for insights  
 
-### 📈 Visualizations Created
-- Survival count by gender
-- Survival count by passenger class
-- Age distribution by survival status
-- Fare distribution by survival status
-- Correlation heatmap of numerical features
+📊 **Output**  
+- Cleaned dataset with missing values handled  
+- Visualizations:  
+  - Countplots for categorical columns  
+  - Histograms/KDE for numeric columns  
+  - Correlation heatmaps  
 
-### 🛠 Technologies Used
-- **Python** - Primary programming language
-- **Pandas** - Data manipulation and analysis
-- **NumPy** - Numerical computations
-- **Matplotlib** - Data visualization
-- **Seaborn** - Statistical data visualization
-- **Jupyter Notebook** - Interactive development environment
+🛠️ **Libraries Used**  
+- pandas  
+- numpy  
+- matplotlib  
+- seaborn  
+
+📌 **Notes**  
+- Designed to work with any CSV dataset  
+- Automatic detection of numeric and categorical columns  
+- Suitable for initial EDA before machine learning or reporting
